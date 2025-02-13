@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center; 
+    margin: 0;
+    background-color: #FADADD; 
+}
+
+#container {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+
+#question {
+    font-family: 'Gabriola', cursive;
+    font-size: 52px;
+}
+
+#question2 {
+    font-family: 'Gabriola', cursive;
+    font-size: 45px;
+}
+
+#options {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 26px;
+    font-family: 'Gabriola', cursive;
+    background-color: #FB607F;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
